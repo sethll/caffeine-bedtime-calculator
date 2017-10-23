@@ -90,7 +90,7 @@ def main(target, time_amount):
     hours.
 
     \b
-    TARGET:         Whole number. Target caffeine amount (in milligrams) for
+    TARGET:         Natural number. Target caffeine amount (in milligrams) for
                         bedtime. Recommendation: 50 to 100
     TIME_AMOUNT:    Format is '24-hour-time:Amount'. 'Amount' is milligrams of
                         caffeine. E.g, '1100:300'

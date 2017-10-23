@@ -12,7 +12,7 @@ hours.
 
 Arguments:
 
-    TARGET:         Whole number. Target caffeine amount (in milligrams) for
+    TARGET:         Natural number. Target caffeine amount (in milligrams) for
                         bedtime. Recommendation: 50 to 100
     TIME_AMOUNT:    Format is '24-hour-time:amount'. 'Amount' is milligrams of
                         caffeine. E.g, '1100:300'

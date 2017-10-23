@@ -1,4 +1,6 @@
-# cbc.py - Caffeine Bedtime Calculator. 2017 Seth L
+# cbc.py 
+
+Caffeine Bedtime Calculator. 2017 Seth L
 
 Version: 0.0.2
 
@@ -18,6 +20,8 @@ Arguments:
 Example:
 
     python cbc.py 75 '1100:300' '1500:5'
+
+![./img/showme.png](./img/showme.png)
 
 ## Prerequisites
 

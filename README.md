@@ -14,12 +14,16 @@ Arguments:
 
     TARGET:         Whole number. Target caffeine amount (in milligrams) for
                         bedtime. Recommendation: 50 to 100
-    TIME_AMOUNT:    Format is '24-hour-time:amount'.
-                        E.g, '1100:300'
+    TIME_AMOUNT:    Format is '24-hour-time:amount'. 'Amount' is milligrams of
+                        caffeine. E.g, '1100:300'
 
 Example:
 
     python cbc.py 75 '1100:300' '1500:5'
+
+* `75` is how many milligrams of caffeine the user wants in their system at bedtime. 
+* `'1100:300'` means the user had 300mg of caffeine at 11:00 a.m.
+* `'1500:5'` means the user had 5mg of caffeine at 3:00 p.m.
 
 ![./img/showme.png](./img/showme.png)
 

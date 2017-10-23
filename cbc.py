@@ -48,6 +48,13 @@ def split_time_amount(time_amount):
 
 def calc_total_time_in_hours(passed_time):
     [hours, minutes, seconds] = str(passed_time).split(':')
+    days_and_hours = hours.split(' ')
+
+    if len(days_and_hours) > 1:
+        hours = days_and_hours[-1]
+        days = days_and_hours[0]
+        hours = float(days) * 24 + float(hours)
+
     total_time = float(hours) * 3600 + float(minutes) * 60 + float(seconds)
     total_time = total_time / 3600
 

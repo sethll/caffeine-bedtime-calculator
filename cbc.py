@@ -29,7 +29,7 @@ T = 5.7 * (ln(Ca/Xo)/ln(1/2))
 
 # CONSTANTS
 
-VERSION = '0.0.3.dev0'
+VERSION = '0.0.3'
 ONE_HALF = float(0.5)
 CAFFEINE_λ = float(5.7)
 
@@ -90,7 +90,7 @@ def calculate_T(x_origin, target_caf_mg):
 def main(target, time_amount):
     """\b
     Caffeine Bedtime Calculator. 2017, Seth L
-    Version: 0.0.3.dev0
+    Version: 0.0.3
 
     Calculates the date/time when you can reasonably expect your sleep to no
     longer be impaired by caffeine, based on a metabolic half-life of 5.7

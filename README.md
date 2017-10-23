@@ -2,7 +2,7 @@
 
 Caffeine Bedtime Calculator. 2017 Seth L
 
-Version: 0.0.2
+Version: 0.0.3.dev0
 
 ---
 

@@ -1,7 +1,7 @@
 """
 Calculator to determine bedtime based on caffeine consumption amount and time.
 
-Copyright (C) 2017  Seth L
+Copyright (C) 2025  Seth L
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -145,7 +145,7 @@ def calculate_T(x_origin, target_caf_mg):
 @click.version_option(version=__version__, prog_name="cbc")
 def main(target, time_amount):
     """\b
-    Caffeine Bedtime Calculator. 2017, Seth L
+    Caffeine Bedtime Calculator. 2025, Seth L
     Version: 0.1.0
 
     Calculates the date/time when you can reasonably expect your sleep to no

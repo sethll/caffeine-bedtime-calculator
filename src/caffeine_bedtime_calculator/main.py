@@ -160,7 +160,7 @@ def main(target, time_amount):
 
     \b
     Example:
-        python cbc.py 75 '1100:300' '1500:5'
+        cbc 75 '1100:300' '1500:5'
     """
     all_inputs = list()
 

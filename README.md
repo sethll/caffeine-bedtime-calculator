@@ -2,7 +2,7 @@
 
 Caffeine Bedtime Calculator. 2017 Seth L
 
-Version: 0.0.3
+Version: 0.1.0
 
 ---
 
@@ -19,7 +19,7 @@ Arguments:
 
 Example:
 
-    python cbc.py 75 '1100:300' '1500:5'
+    uv run cbc 75 '1100:300' '1500:5'
 
 * `75` is how many milligrams of caffeine the user wants in their system at bedtime. 
 * `'1100:300'` means the user had 300mg of caffeine at 11:00 a.m.
@@ -29,9 +29,8 @@ Example:
 
 ## Prerequisites
 
-1. Python 3 
-2. pip (pip3, for Python 3)
-3. virtualenv (`pip install virtualenv`)
+1. Python 3.13+
+2. [uv](https://docs.astral.sh/uv/) - Modern Python package manager
 
 ## Installation 
 
@@ -39,11 +38,12 @@ Example:
     git clone https://github.com/sethll/caffeine-bedtime-calculator.git
     cd caffeine-bedtime-calculator
 
-    # Using a virtual environment is recommended, but not required. You may
-    # skip these steps. 
-    virtualenv venv -p python3
-    . venv/bin/activate
+    # Install dependencies (uv handles virtual environments automatically)
+    uv sync
 
-    # Install dependencies
-    pip install -r requirements.txt
+## Usage
+
+Run the calculator:
+
+    uv run cbc <target> '<time:amount>' ...
 

@@ -1,0 +1,32 @@
+[project]
+name = "caffeine-bedtime-calculator"
+version = "0.1.0"
+description = "Calculator to determine bedtime based on caffeine consumption amount and time"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.2.1",
+]
+authors = [
+    {name = "Seth L"},
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.scripts]
+cbc = "caffeine_bedtime_calculator:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "black>=25.1.0",
+]
